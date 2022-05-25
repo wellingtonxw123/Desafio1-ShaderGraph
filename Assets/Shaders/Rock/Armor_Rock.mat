@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Armor_Rock
+  m_Shader: {fileID: -6465566751694194690, guid: 77fd5dd83cddd124ca6f65c01e42024f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _OrcAO:
+        m_Texture: {fileID: 2800000, guid: d40529da195142b44813ab3f124c9f27, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OrcMetallic:
+        m_Texture: {fileID: 2800000, guid: f45ff500259d49a4a94bd5d286dc2a91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OrcNMap:
+        m_Texture: {fileID: 2800000, guid: 7283aa3cde38f45479b9f2e2e125a02c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OrcTex:
+        m_Texture: {fileID: 2800000, guid: 7eb7fd9da6cdb184ab746e45e87f0b8f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RockAO:
+        m_Texture: {fileID: 2800000, guid: b195c0db5e0181b4a8232360422fe6c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RockMetallic:
+        m_Texture: {fileID: 2800000, guid: f7c36f8157ad32445ab87a9b10b10105, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RockNMap:
+        m_Texture: {fileID: 2800000, guid: 9ebf2f0b7c0c8864a8e9f51777810ecb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RockTex:
+        m_Texture: {fileID: 2800000, guid: a0b599b5bf5762b4b9a70c7c8b634d17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpSlider: 0
+    - _OrcNMapStrength: 1
+    - _RockNMapStrength: 1
+    - _RockSlider: 0
+    - _Smothness: 0.65
+    m_Colors:
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
